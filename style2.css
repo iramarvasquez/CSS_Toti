@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    background: blue;
+    height: 65px;
+    display: flex;
+
+}
+
+nav header {
+    display: flex;
+}
+
+main {
+    background: grey;
+
+}
+
+nav {
+    background: orange;
+
+}
+
+section {
+    background: green;
+
+}
+
+.container-main{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "header" "header" "header" "header";
+                        "header" "header" "header" "header";
+
+}
+
+.container-main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
