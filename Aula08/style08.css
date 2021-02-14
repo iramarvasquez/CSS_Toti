@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #180E0C;
+    color: white;
+    padding: 10px;
+}
+
+nav div {
+    flex: 50%;
+
+}
+
+nav ul {
+    flex: 50%;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li {
+    padding: 10px
+}
+
+nav li:hover {
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+a.icon {
+    display: none;
+}
+
+.mainpic {
+    display: flex;
+}
+
+.section1 {
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    background-color: #FFFFFF;
+    word-wrap: break-word;
+}
+
+.section1a {
+    flex: 25%;
+
+}
+
+.section1a img {
+    width: 100%;
+}
+
+.section2 {
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    background-color: #37201A;
+    color: #7A503E;
+}
+
+.section2c {
+    flex: 80%;
+}
+
+.type1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.type2 {
+    align-items: center;
+
+}
+
+.section3 {
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    background-color: #251611;
+    color: #7A503E;
+}
+
+aside {
+    width: 120%;
+    line-height: 15px;
+    color: #7A503E;
+}
+
+aside a {
+    color: #7A503E;
+}
+
+footer {
+    color: #7A503E;
+    background-color: #180E0C;
+    text-align: center;
+    padding: 10px;
+}
+
+main h2 {
+    color: #C27159;
+}
+
+@media screen and (max-width: 500px) {
+
+    .section1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+        background-color: #FFFFFF;
+        font-size: 10pt
+    }
+
+    main h2 {
+        font-size: 21pt;
+    }
+
+    main h3 {
+        font-size: 13 pt;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        gap: 20px;
+        background-color: #37201A;
+        color: #7A503E;
+        font-size: 13pt;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        gap: 20px;
+        background-color: #251611;
+        color: #7A503E;
+        font-size: 8pt;
+    }
+
+    .section3 h3 {
+        font-size: 13pt;
+    }
+
+    footer {
+        font-size: 8pt;
+    }
+
+    a.icon {
+        display: block;
+        color: white;
+        width: 27pt;
+        height: 18pt
+    }
+
+    nav ul {
+        display: none;
+    }
+
+}
