@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(34, 15, 15);
+    color: white;
+    padding: 20px;
+}
+
+nav div {
+    flex: 50%;
+    font-family: "Lucida Handwriting", Cursive;
+}
+
+nav ul {
+    flex: 50%;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li {
+    padding: 10px
+}
+
+nav li:hover {
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.mainpic {
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section1 {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: white;
+
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 20px;
+    background-color: rgba(49, 15, 15, 0.863);
+    color: rgb(194, 128, 128);
+}
+
+.section2c {
+    flex: 80%;
+}
+
+.type1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.type2 {
+    align-items: center;
+
+}
+
+.section3 {
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+    background-color: rgba(49, 15, 15, 0.986);
+    color: rgb(194, 128, 128);
+}
+
+aside {
+    width: 120%;
+    line-height: 15px;
+}
+
+aside a {
+    color: rgb(194, 128, 128);
+}
+
+footer {
+    color: rgb(194, 128, 128);
+    background-color: rgba(31, 10, 10, 0.986);
+    text-align: center;
+    padding: 20px;
+}
